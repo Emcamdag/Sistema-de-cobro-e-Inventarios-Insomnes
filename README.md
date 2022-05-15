@@ -2,7 +2,7 @@
  Proyecto Programadores Insomnes LIS
 # Equipo
 
-[Campos Daguer Emilio]
+[Campos Daguer Emilio](https://github.com/Emcamdag)
 
 [Couoh Martin Reynaldo](https://github.com/ReynaldoCoMa)
 
