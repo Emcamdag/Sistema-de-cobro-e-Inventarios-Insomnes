@@ -34,7 +34,7 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
-[Modularidad]
+[Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.PNG)
 
 [Definición del estándar de codificación]
 
