@@ -58,4 +58,4 @@ ________________________________________________________________________________
 
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
-[Código documentado]
+[Código documentado](https://github.com/Emcamdag/Sistema-de-cobro-Kuerissimo-PIEL/blob/main/Documentos/Fases/GUI_2.c)
