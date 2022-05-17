@@ -16,7 +16,7 @@
 Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL** para la materia de Programación estructurada.
 
 # Índice
-[Antecedentes de la propuesta]
+[Antecedentes de la propuesta](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Antecedentes.md)
 
 [Descripción del producto software]
 
