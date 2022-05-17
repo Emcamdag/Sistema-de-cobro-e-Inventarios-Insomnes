@@ -18,7 +18,7 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 # Índice
 [Antecedentes de la propuesta](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Antecedentes.md)
 
-[Descripción del producto software]
+[Descripción del producto software](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Descripcion_software.md)
 
 [Objetivo general]
 
