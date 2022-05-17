@@ -26,7 +26,7 @@ ________________________________________________________________________________
 
 [Objetivos general y específicos](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Objetivos.md)
 
-[Tipos de usuarios]
+[Tipos de usuarios](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Usuarios.md)
 
 [Estándar de codificación](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Estandar.md)
 _______________________________________________________________________________________________________________________________________________________________________
