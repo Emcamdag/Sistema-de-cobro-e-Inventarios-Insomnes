@@ -14,13 +14,14 @@ ________________________________________________________________________________
 
 [Méndez Sierra Daniel]
 
-[![ilustración](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Insomnes.jpeg)
+![ilustración](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Insomnes.jpeg)
 
+_______________________________________________________________________________________________________________________________________________________________________
 # Descripción general
 
 Este repositorio guarda el proyecto de Sistema de Cobros y Base de Datos Kueerissimo PIEL, en colaboración de la empresa Local Kuerissimo PIEL la cual es conocida por ofrecer gran variedad de artículos de piel a la población yucateca.
 
-[![ilustración](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/kueri.jpg)
+![ilustración](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/kueri.jpg)
 _______________________________________________________________________________________________________________________________________________________________________
 # Índice
 
