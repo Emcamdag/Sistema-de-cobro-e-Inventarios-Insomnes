@@ -36,6 +36,6 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.PNG)
 
-[Definición del estándar de codificación]
+[Estándar de codificación](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Estandar.md)
 
 [Código]
