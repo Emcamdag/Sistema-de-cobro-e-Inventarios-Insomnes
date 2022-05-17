@@ -26,7 +26,7 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Interfaz de usuario]
 
-[Requerimientos]
+[Requerimientos](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Requerimientos.pdf)
 
 [Casos de uso]
 
