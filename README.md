@@ -39,14 +39,14 @@ ________________________________________________________________________________
 
 [Casos de uso](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Casos%20de%20uso.pdf)
 
-[Bitácora](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a21216378_alumnos_uady_mx/Eax8mF9jaJpLugoQbdWZ_uABq0CyhVtgCJHGMotbFN5zOA?e=pbqcyP)
-
 _______________________________________________________________________________________________________________________________________________________________________
 ## Modularidad
 
 [Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.PNG)
-
+_______________________________________________________________________________________________________________________________________________________________________
 ## Proceso de desarrollo
+
+[Bitácora](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a21216378_alumnos_uady_mx/Eax8mF9jaJpLugoQbdWZ_uABq0CyhVtgCJHGMotbFN5zOA?e=pbqcyP)
 
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
