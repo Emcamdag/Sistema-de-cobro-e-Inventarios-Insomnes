@@ -14,8 +14,12 @@
 
 # Descripción general
 Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL** para la materia de Programación estructurada.
-
+_______________________________________________________________________________________________________________________________________________________________________
 # Índice
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+## Definición inicial de requerimientos de sistema
 [Antecedentes de la propuesta](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Antecedentes.md)
 
 [Descripción del producto software](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Descripcion_software.md)
@@ -23,6 +27,11 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 [Objetivos general y específicos](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Objetivos.md)
 
 [Tipos de usuarios]
+
+[Estándar de codificación](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Estandar.md)
+_______________________________________________________________________________________________________________________________________________________________________
+
+## Mapeo de requerimientos
 
 [Interfaz de usuario]
 
@@ -32,10 +41,13 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Bitácora](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a21216378_alumnos_uady_mx/Eax8mF9jaJpLugoQbdWZ_uABq0CyhVtgCJHGMotbFN5zOA?e=pbqcyP)
 
-[Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
+_______________________________________________________________________________________________________________________________________________________________________
+## Modularidad
 
 [Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.PNG)
 
-[Estándar de codificación](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Estandar.md)
+## Proceso de desarrollo
 
-[Código]
+[Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
+
+[Código documentado]
