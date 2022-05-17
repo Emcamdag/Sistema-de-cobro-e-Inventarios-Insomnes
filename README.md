@@ -1,5 +1,7 @@
 # Base-de-datos-Kuerissimo-PIEL
- Proyecto Programadores Insomnes LIS
+
+ Este es un proyecto para la materia de Programación Estructurada del equipo Programadores Insomnes de la Licenciatura en Ingeniería en Software de la Facultad de Matemáticas e la Univrsidad Autónoma de Yucatán. Esperamos sea de su agrado.
+_______________________________________________________________________________________________________________________________________________________________________
 # Equipo
 
 [Campos Daguer Emilio](https://github.com/Emcamdag)
@@ -11,6 +13,7 @@
 [Herrera Herrera Adiel Elioenai]
 
 [Méndez Sierra Daniel]
+()
 
 # Descripción general
 Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL** para la materia de Programación estructurada.
