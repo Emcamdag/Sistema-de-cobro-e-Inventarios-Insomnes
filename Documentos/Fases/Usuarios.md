@@ -1,4 +1,4 @@
-#Tipos de usuarios
+# Tipos de usuarios
 
 Empleados:  Los empleados realizaran las funciones que tienen asignadas como realizar los cobros de las ventas de los productos e impresión de notas, poder acceder al inventario de la bodega para solicitar los productos faltantes, corroborar los datos del comprador para que las facturas sean realizadas y hacer un cierre de las ventas del día.  
 
