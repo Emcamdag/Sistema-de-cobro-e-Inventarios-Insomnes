@@ -1,8 +1,11 @@
-#Objetivo general: 
+# Objetivos
+_________________________________________________________________________________________________________________________________________________________________________
+
+## Objetivo general: 
 
 Facilitar los registros para minimizar riesgos y errores; así como agilizar la administración de los productos y su venta para incrementar la liquidez. 
 
-#Objetivos específicos: 
+## Objetivos específicos: 
 
 -Permitir llevar un inventario de los diferentes productos y a qué tienda corresponde cada uno. 
 
