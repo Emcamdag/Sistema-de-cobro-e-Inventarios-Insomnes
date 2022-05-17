@@ -42,7 +42,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 ## Modularidad
 
-[Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.PNG)
+[Modularidad](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Modularidad.pdf)
 _______________________________________________________________________________________________________________________________________________________________________
 ## Proceso de desarrollo
 
