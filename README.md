@@ -32,7 +32,7 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Bitácora](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a21216378_alumnos_uady_mx/Eax8mF9jaJpLugoQbdWZ_uABq0CyhVtgCJHGMotbFN5zOA?e=pbqcyP)
 
-[Contribución Individual]()
+[Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
 [Modularidad]
 
