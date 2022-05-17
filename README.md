@@ -20,9 +20,7 @@ Este repositorio guarda el progreso del proyecto **Base-de-datos-Kuerissimo-PIEL
 
 [Descripción del producto software](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Descripcion_software.md)
 
-[Objetivo general]
-
-[Objetivos específicos]
+[Objetivos general y específicos](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Objetivos.md)
 
 [Tipos de usuarios]
 
