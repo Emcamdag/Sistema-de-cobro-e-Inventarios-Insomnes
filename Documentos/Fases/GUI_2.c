@@ -193,7 +193,7 @@ int main()
                 datosUsuario ;
                 printf("Ingrese la clave del usuario : ");
                 scanf("%d");
-                printf("Ingrese la contraseña para el usuario %d : ", );
+                printf("Ingrese la contraseÃ±a para el usuario %d : ", );
                 scanf("");
 				
                 break;
