@@ -1,34 +1,75 @@
 #include <stdio.h>
-#include <windows.h>
+#include <stdlib.h>
+#include <string.h>
 
 // Interfaz de usuario tentativa (11/05/22)
 
-// Estructura que tendra los datos del usuario
-struct datosUsuario
-{
-    char nombre[50];
-    char contrasena[20];
-    int rol;
-};
-
-typedef struct datosUsuario datosUsuario;
+#define LONGITUD 80
+#define TECLA_ENTER 13
+#define TECLA_BACKSPACE 8
 
 int main()
 {
     // Variable para elegir de las opciones del menu; V. para la cantidad de productos siendo comprados; V. para usar en el switch de inventario
     int opcionMenu, cantProductos, inventarioSwitch;
 
+    // Variables para iniciar sesion
+    char loginUsuario[ LONGITUD + 1 ], loginClave[ LONGITUD + 1 ], char caracter;
+    int numUsuarios[3];
     // Servira para decidir en un switch que opcion realizar respecto al registro de usuarios
     int registroUsuarios;
-    // Son la clave personal de cada usuario con sus respectivas contrasennas
-    int claveUsuario, contrasenaUsuario;
 
-    printf("Ingrese su clave: ");
-    scanf("%d", &claveUsuario);
-    printf("Ingrese su contrasenna: ");
-    scanf("%d", &contrasenaUsuario);
+    // Arreglos de usuarios y sus respectivas claves
+    char usuarios[numUsuarios][ LONGITUD + 1 ];
+    char claves[numUsuarios][ LONGITUD + 1 ];
+	
+    strcpy(usuarios[0], "0001");
+    strcpy(claves[0], "clave123");
 
-    // Aqui ira la autenticacion de contrasena que permitira entrar o no
+    printf("\n\t\t\tINICIO DE SESION\n");
+	do
+    {
+	int i = 0;
+	system("cls");
+	printf("\n\tUSUARIO: ");
+	gets(usuario);
+	printf("\tCLAVE: ");
+	while (caracter = getch())
+	{
+		if (caracter == TECLA_ENTER)
+		{
+			clave[i] = '\0';
+			break;
+			
+		} 
+		else if (caracter == TECLA_BACKSPACE)
+		{
+			if (i > 0)
+			{
+				i--;
+				printf("\b \b");
+			}
+			
+		} 
+		else 
+		{
+			if (i < LONGITUD) 
+			{
+				printf("*");
+				clave[i] = caracter;
+				i++;
+			}
+		}
+	}
+		
+	// Valida al usuario
+        for (int j = 0; j < NUMERO_USUARIOS; ++j) {
+            if (strcmp(usuario, usuarios[j]) == 0 && strcmp(clave, claves[j]) == 0)
+	    {
+                ingresa = 1;
+                break;    
+            }
+     } while ( i = 0 );
     
 	do
     {
