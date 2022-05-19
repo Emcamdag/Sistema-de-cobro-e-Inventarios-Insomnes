@@ -8,7 +8,7 @@ ________________________________________________________________________________
 
 [Couoh Martin Reynaldo](https://github.com/ReynaldoCoMa)
 
-[Graniel Arzat Aaron Isaac]
+[Graniel Arzat Aaron Isaac](https://github.com/Aaron2105)
 
 [Herrera Herrera Adiel Elioenai]
 
