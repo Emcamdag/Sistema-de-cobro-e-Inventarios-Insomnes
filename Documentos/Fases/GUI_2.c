@@ -81,7 +81,7 @@ int main()
 		// Corregir lo del inicio de sesion (no se que sale mal, pero si lo escribes mal a la primera, ya no puedes iniciar sesion; se reinicia el bucle idk) :)
     } while ( k = 0 );
     
-	do
+	while ( opcionMenu1 != 4)
     {
         // Las opciones son de ejemplo
         printf("\n    1. Punto de venta");
@@ -228,10 +228,13 @@ int main()
 						system("pause");
 						apertura = 0;
 					}
+                    else
+                    {
+                    //Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
+					printf("\nNo se puede realizar un corte, antes debe realizar una apertura de caja");
+                    }
 					break;
 				}
-				default:
-					printf("\nNo se puede realizar un corte, antes debe realizar una apertura de caja");//Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
 			} while ( opcionMenu2 != 4);
             break;
         
@@ -333,6 +336,7 @@ int main()
             break;
 
         case 3:
+	    printf("\nCOMENTARIO: No se logro implementar\n");
             printf("\n 1. Registrar empleados");
             printf("\n 2. Editar registro de empleados");
 
@@ -345,14 +349,16 @@ int main()
                 scanf("%d");
                 printf("Ingrese la contraseña para el usuario %d : ", );
                 scanf(""); */
-				
+		printf("\nNo se logro implementar\n");	
                 break;
             
             default:
                 break;
-            break;
             }
         }
-    } while ( opcionMenu1 != 4);
+    }
+    printf("\t-------------------");
+    printf("\n\tPrograma finalizado\n");
+    printf("\t-------------------");
     return 0;
 }
