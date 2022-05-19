@@ -11,7 +11,10 @@
 int main()
 {
     // Variable para elegir de las opciones del menu; V. para la cantidad de productos siendo comprados; V. para usar en el switch de inventario
-    int opcionMenu, cantProductos, inventarioSwitch;
+    int opcionMenu1, opcionMenu2, opcionMenu3, cantProductos, inventarioSwitch;
+	
+    // Variables para el corte y apertura de caja 
+    int apertura, preDinero, posDinero, billMil, billQuin, billDosci, billCien, billCinc, billVen, monDiez, monCinc, monDos, monUno;
 
     // Variables para iniciar sesion
     char loginUsuario[ LONGITUD + 1 ], loginClave[ LONGITUD + 1 ], char caracter;
@@ -83,15 +86,14 @@ int main()
         {
             printf("\n Ingrese su eleccion (1-4):    ");
             scanf("%d", &opcionMenu1);
-        } while ( opcionMenu < 1 || opcionMenu > 4);
+        } while ( opcionMenu1 < 1 || opcionMenu1 > 4);
 
         switch ( opcionMenu1 )
         {
-            // Tambien los casos son tentativos
         case 1:
 			do
 			{
-				// Las opciones son de ejemplo
+				//Se despliega el menú principal 
 				printf("\n    1. Realizar venta");
 				printf("\n    2. Apertura de caja");
 				printf("\n    3. Corte de caja");
@@ -99,13 +101,13 @@ int main()
 				
 				do
 				{
-					printf("\n Ingrese su eleccion (1-4):    ");
+					printf("\n Ingrese su eleccion (1-4):    ");//Se le pide al usuario que ingrese una opcion
 					scanf("%d", &opcionMenu2);
 				} while ( opcionMenu2 < 1 || opcionMenu2 > 4);
 				
 				switch ( opcionMenu2 )
 				{
-					// Tambien los casos son tentativos
+					// Menu para realizar una venta ~Emilio
 				case 1:
 					printf("\n Ingrese el codigo y cantidad de los productos\n");
 					do
@@ -116,14 +118,110 @@ int main()
 					break;
 					
 				case 2:
-					
+					if(apertura != 1){
+						// Opcion de apertura de caja ~Emilio
+						do{
+							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
+							scanf("%d", &usarAsistente);
+						} while(usarAsistente < 1 || usarAsistente > 2);//Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
+
+						if(usarAsiste == 1){
+							/*Se despliega el asistente de caja ~Emilio*/
+							printf("\n\tAsistente de Caja\n");
+							printf("-----------------------\n");
+							printf("\n¿Cuantos billetes de 1000 tiene?: ");
+							scanf("%d", &billMil);
+							printf("\n¿Cuantos billetes de 500 tiene?: ");
+							scanf("%d", &billQuin);
+							printf("\n¿Cuantos billetes de 200 tiene?: ");
+							scanf("%d", &billDos);
+							printf("\n¿Cuantos billetes de 100 tiene?: ");
+							scanf("%d", &billCien);
+							printf("\n¿Cuantos billetes de 50 tiene?: ");
+							scanf("%d", &billCinc);
+							printf("\n¿Cuantos billetes, o monedas, de 20 tiene?: ");
+							scanf("%d", &billVen);
+							printf("\n¿Cuantos monedas de 10 tiene?: ");
+							scanf("%d", &monDiez);
+							printf("\n¿Cuantos monedas de 5 tiene?: ");
+							scanf("%d", &monCinc);
+							printf("\n¿Cuantos monedas de 2 tiene?: ");
+							scanf("%d", &monDos);
+							printf("\n¿Cuantos monedas de 1 tiene?: ");
+							scanf("%d", &monUno);
+							/*Se calcula el dinero que tiene la caja al momento de hacer la apertura*/
+							preDinero = billMil+billQuin+billDosci+billCien+billCinc+billVen+monDiez+monCinc+monDos+monUno;
+						} 
+						else {
+							printf("\nIngrese la cantidad de dinero que tenga la caja");
+							scanf("%f", &preDinero);
+						}
+						printf("\nUsted tiene: $%d en la caja\n", preDinero);
+						apertura = 1;
+					}
+					else{
+						printf("\nNo se puede realizar una apertura, antes debe realizar un corte de caja");//Se imprime en caso de que no se haya realizado un corte de caja antes. ~Emilio
+					}
 					break;
 					
 				case 3:
-					
+					if(apertura == 1){
+						//Opcion de corte de caja ~Emilio
+						do{
+							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
+							scanf("%d", &usarAsistente);
+						} while(usarAsistente < 1 || usarAsistente > 2);//Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
+
+						if(usarAsiste == 1){
+							/*Se despliega el asistente de caja ~Emilio*/
+							printf("\n\tAsistente de Caja\n");
+							printf("-----------------------\n");
+							printf("\n¿Cuantos billetes de 1000 tiene?: ");
+							scanf("%d", &billMil);
+							printf("\n¿Cuantos billetes de 500 tiene?: ");
+							scanf("%d", &billQuin);
+							printf("\n¿Cuantos billetes de 200 tiene?: ");
+							scanf("%d", &billDos);
+							printf("\n¿Cuantos billetes de 100 tiene?: ");
+							scanf("%d", &billCien);
+							printf("\n¿Cuantos billetes de 50 tiene?: ");
+							scanf("%d", &billCinc);
+							printf("\n¿Cuantos billetes, o monedas, de 20 tiene?: ");
+							scanf("%d", &billVen);
+							printf("\n¿Cuantos monedas de 10 tiene?: ");
+							scanf("%d", &monDiez);
+							printf("\n¿Cuantos monedas de 5 tiene?: ");
+							scanf("%d", &monCinc);
+							printf("\n¿Cuantos monedas de 2 tiene?: ");
+							scanf("%d", &monDos);
+							printf("\n¿Cuantos monedas de 1 tiene?: ");
+							scanf("%d", &monUno);
+							/*Se calcula el dinero que tiene la caja al momento de hacer la apertura*/
+							posDinero = billMil+billQuin+billDosci+billCien+billCinc+billVen+monDiez+monCinc+monDos+monUno;
+						} 
+						else {
+							printf("\nIngrese la cantidad de dinero que tenga la caja");
+							scanf("%f", &posDinero);
+						}
+						system("cls");
+						/*Muestra en pantalla el reporte de corte de caja, indica si hay faltante ~Emilio*/
+						printf("\n\tCORTE DE CAJA");
+						printf("\n Arqueo inicial:\t$%d", preDinero);
+						printf("\n Cobranza:\t$%d", ventasTotal);
+						printf("\n Devoluciones:\t$%d", devTotal);
+						printf("-----------------------------------------");
+						printf("\n Total:\t$%d", preDinero+ventasTotal+devTotal);
+						printf("\n\n Arqueo final:\t$%d", posDinero);
+						printf("-----------------------------------------");
+						printf("\n\n Faltante:\t$%d", (preDinero+ventasTotal+devTotal)-(posDinero));
+						system("pause");
+						apertura = 0;
+					}
 					break;
 				}
-				
+				else{
+					printf("\nNo se puede realizar un corte, antes debe realizar una apertura de caja");//Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
+				}
 			} while ( opcionMenu2 != 4);
             break;
         
