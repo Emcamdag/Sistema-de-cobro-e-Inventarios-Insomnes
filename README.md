@@ -1,4 +1,4 @@
-# Sistema-de-cobro-Kuerissimo-PIEL
+# Sistema-de-cobros-y-yadministración-de-inventarios-mediante-una-base-de-datos
 
  Este es un proyecto para la materia de Programación Estructurada del equipo Programadores Insomnes de la Licenciatura en Ingeniería en Software de la Facultad de Matemáticas e la Univrsidad Autónoma de Yucatán. Esperamos sea de su agrado.
 _______________________________________________________________________________________________________________________________________________________________________
