@@ -67,7 +67,7 @@ int main()
         }    
 	
 		
-	    // Valida al usuario
+	    //Se Valida al usuario- Reynaldo
         for (j = 0; j < NUMERO_USUARIOS; j++) 
         {
             if (strcmp( loginUsuario , usuarios[j] ) == 0 && strcmp( loginClave, claves[j] ) == 0)
