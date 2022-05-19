@@ -1,4 +1,4 @@
-# Sistema-de-cobros-y-administración-de-inventarios-mediante-una-base-de-datos
+# Sistema-de-cobros-y-administración-de-inventarios
 
  Este es un proyecto para la materia de Programación Estructurada del equipo Programadores Insomnes de la Licenciatura en Ingeniería en Software de la Facultad de Matemáticas e la Univrsidad Autónoma de Yucatán. Esperamos sea de su agrado.
 _______________________________________________________________________________________________________________________________________________________________________
@@ -54,7 +54,7 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________________________________________________________________
 ## Proceso de desarrollo
 
-[Bitácora](https://alumnosuady-my.sharepoint.com/:w:/g/personal/a21216378_alumnos_uady_mx/Eax8mF9jaJpLugoQbdWZ_uABq0CyhVtgCJHGMotbFN5zOA?e=pbqcyP)
+[Bitácora](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Bitácora.pdf)
 
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
