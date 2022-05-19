@@ -31,7 +31,7 @@ int main()
 
     int i = 0, k = 0, j = 0;
 
-//Inicio de sesion
+//Inicio de sesion- Reynaldo
     printf("\n\t\t\tINICIO DE SESION\n");
 	do
     {
