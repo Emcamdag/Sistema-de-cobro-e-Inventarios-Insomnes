@@ -62,7 +62,7 @@ ________________________________________________________________________________
 [Comprimido código (FINAL)]()
 ______________________________________________________________________________________________________________________________________________________________________
 ## Entregas
-[Informe general]()
+[Informe general]( )
 
 En este se realizaron correcciones a los puntos a tratar de las anteriores entregas y se encuentra documentado todo el proceso de desarrollo.
 
