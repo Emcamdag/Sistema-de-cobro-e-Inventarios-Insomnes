@@ -78,6 +78,6 @@ En este se realizaron correcciones a los puntos a tratar de las anteriores entre
 
 ### Tercera Entrega:
 
-[Iforme Tercera Entrega]()
+[Informe Tercera Entrega]()
 
 [Cartel Científico](https://www.canva.com/design/DAFAzz69ZZw/tbETnFy8roJ4bIh3ztmDHg/view?utm_content=DAFAzz69ZZw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
