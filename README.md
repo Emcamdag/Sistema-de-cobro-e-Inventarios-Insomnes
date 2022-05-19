@@ -65,4 +65,4 @@ ________________________________________________________________________________
 
 [Presentación Avances
 
-[Cartel Científico]
+[Cartel Científico](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Sistema%20de%20cobros%20y%20bdd%20Kuerissimo%20PIEL.pdf)
