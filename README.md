@@ -66,12 +66,18 @@ ________________________________________________________________________________
 En este se realizaron correcciones a los puntos a tratar de las anteriores entregas y se encuentra documentado todo el proceso de desarrollo.
 
 Primera entrega: 
-[Informe]()
+
+[Informe Primera Entrega](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Propesta_ProgramadoresInsomnes%20(2).pdf)
 
 Segunda entrega:
 [Presentación Avances](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Avances_Programadores%20Insomnes.pptx)
 
+[Informe Segunda Entrega](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/AvancesProyecto_ProgramadoresInsomnes.pdf)
+
 [Código documentado-segunda entrega](https://github.com/Emcamdag/Sistema-de-cobro-Kuerissimo-PIEL/blob/main/Documentos/Fases/GUI_2.c)
+
 Tercera Entrega
+
+[Iforme Tercera Entrega]()
 
 [Cartel Científico](https://www.canva.com/design/DAFAzz69ZZw/tbETnFy8roJ4bIh3ztmDHg/view?utm_content=DAFAzz69ZZw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
