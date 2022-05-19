@@ -58,13 +58,20 @@ ________________________________________________________________________________
 
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
-[Código documentado](https://github.com/Emcamdag/Sistema-de-cobro-Kuerissimo-PIEL/blob/main/Documentos/Fases/GUI_2.c)
 
 [Comprimido código]()
 ______________________________________________________________________________________________________________________________________________________________________
 ## Entregas
-[Informe general]
+[Informe general]()
+En este se realizaron correcciones a los puntos a tratar de las anteriores entregas y se encuentra documentado todo el proceso de desarrollo.
 
+Primera entrega: 
+[Informe]()
+
+Segunda entrega:
 [Presentación Avances](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Avances_Programadores%20Insomnes.pptx)
+
+[Código documentado-segunda entrega](https://github.com/Emcamdag/Sistema-de-cobro-Kuerissimo-PIEL/blob/main/Documentos/Fases/GUI_2.c)
+Tercera Entrega
 
 [Cartel Científico](https://www.canva.com/design/DAFAzz69ZZw/tbETnFy8roJ4bIh3ztmDHg/view?utm_content=DAFAzz69ZZw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
