@@ -59,10 +59,11 @@ ________________________________________________________________________________
 [Contribución Individual](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Métrica%20de%20contribución-%20Programadores%20Insomnes.xlsx)
 
 
-[Comprimido código]()
+[Comprimido código (FINAL)]()
 ______________________________________________________________________________________________________________________________________________________________________
 ## Entregas
 [Informe general]()
+
 En este se realizaron correcciones a los puntos a tratar de las anteriores entregas y se encuentra documentado todo el proceso de desarrollo.
 
 ### Primera entrega: 
