@@ -35,11 +35,13 @@ int main()
     printf("\n\t\t\tINICIO DE SESION\n");
 	do
     {
+	// 'system("cls")' limpia la pantalla - Daniel
         system("cls");
 	    printf("\n\tUSUARIO: ");
 	    gets(loginUsuario);
 	    printf("\tCLAVE: ");
 
+	// Hace que la contrasenna ingresada no sea visible; es cubierta por '*' - Daniel
         while (caracter = getch())
         {
 		    if (caracter == TECLA_ENTER)
@@ -67,17 +69,17 @@ int main()
         }    
 	
 		
-	    //Se Valida al usuario- Reynaldo
+	    //Se Valida al usuario - Reynaldo
         for (j = 0; j < NUMERO_USUARIOS; j++) 
         {
             if (strcmp( loginUsuario , usuarios[j] ) == 0 && strcmp( loginClave, claves[j] ) == 0)
 	        {
                 k = 1;
                 break;    
-            }
+            	}
         } 
 		// Corregir lo del inicio de sesion (no se que sale mal, pero si lo escribes mal a la primera, ya no puedes iniciar sesion; se reinicia el bucle idk) :)
-    } while ( k != 1 );
+    } while ( k = 0 );
     
 	do
     {
@@ -98,7 +100,7 @@ int main()
         case 1:
 			do
 			{
-				//Se despliega el menú principal 
+				//Se despliega el menú principal - Daniel
 				printf("\n    1. Realizar venta");
 				printf("\n    2. Apertura de caja");
 				printf("\n    3. Corte de caja");
