@@ -12,7 +12,7 @@ ________________________________________________________________________________
 
 [Herrera Herrera Adiel Elioenai]
 
-[Méndez Sierra Daniel]
+[Méndez Sierra Daniel](https://github.com/TanoshiiSound)
 
 ![ilustración](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Insomnes.jpeg)
 
