@@ -75,6 +75,7 @@ int main()
                 break;    
             }
         } 
+		// Corregir lo del inicio de sesion (no se que sale mal, pero si lo escribes mal a la primera, ya no puedes iniciar sesion; se reinicia el bucle idk) :)
     } while ( k != 1 );
     
 	do
