@@ -1,78 +1,81 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <conio.h>
 
 // Interfaz de usuario tentativa (11/05/22)
 
 #define LONGITUD 80
 #define TECLA_ENTER 13
 #define TECLA_BACKSPACE 8
+#define NUMERO_USUARIOS 3
 
 int main()
 {
     // Variable para elegir de las opciones del menu; V. para la cantidad de productos siendo comprados; V. para usar en el switch de inventario
-    int opcionMenu1, opcionMenu2, opcionMenu3, cantProductos, inventarioSwitch;
+    int opcionMenu1, opcionMenu2, opcionMenu3, opcionMenu4, cantProductos, inventarioSwitch, usarAsistente, ventasTotal, devTotal;
 	
+
     // Variables para el corte y apertura de caja 
     int apertura, preDinero, posDinero, billMil, billQuin, billDosci, billCien, billCinc, billVen, monDiez, monCinc, monDos, monUno;
 
     // Variables para iniciar sesion
-    char loginUsuario[ LONGITUD + 1 ], loginClave[ LONGITUD + 1 ], char caracter;
-    int numUsuarios[3];
+    char loginUsuario[ LONGITUD + 1 ], loginClave[ LONGITUD + 1 ], caracter;
+	
     // Servira para decidir en un switch que opcion realizar respecto al registro de usuarios
     int registroUsuarios;
 
     // Arreglos de usuarios y sus respectivas claves
-    char usuarios[numUsuarios][ LONGITUD + 1 ];
-    char claves[numUsuarios][ LONGITUD + 1 ];
-	
-    strcpy(usuarios[0], "0001");
-    strcpy(claves[0], "clave123");
+    char usuarios[ NUMERO_USUARIOS ][ LONGITUD + 1 ] = {"0001", "0002", "0003"};
+    char claves[ NUMERO_USUARIOS ][ LONGITUD + 1 ] = {"12", "34", "56"};
+
+    int i = 0, k = 0, j = 0;
 
     printf("\n\t\t\tINICIO DE SESION\n");
 	do
     {
-	int i = 0;
-	system("cls");
-	printf("\n\tUSUARIO: ");
-	gets(usuario);
-	printf("\tCLAVE: ");
-	while (caracter = getch())
-	{
-		if (caracter == TECLA_ENTER)
-		{
-			clave[i] = '\0';
-			break;
-			
-		} 
-		else if (caracter == TECLA_BACKSPACE)
-		{
-			if (i > 0)
-			{
-				i--;
-				printf("\b \b");
-			}
-			
-		} 
-		else 
-		{
-			if (i < LONGITUD) 
-			{
-				printf("*");
-				clave[i] = caracter;
-				i++;
-			}
-		}
-	}
+        system("cls");
+	    printf("\n\tUSUARIO: ");
+	    gets(loginUsuario);
+	    printf("\tCLAVE: ");
+
+        while (caracter = getch())
+        {
+		    if (caracter == TECLA_ENTER)
+		    {
+			    loginClave[i] = '\0';
+			    break;
+		    } 
+		    else if (caracter == TECLA_BACKSPACE)
+		    {
+			    if (i > 0)
+			    {
+			    	i--;
+				    printf("\b \b");
+			    }
+		    } 
+		    else 
+		    {
+			    if (i < LONGITUD) 
+			    {
+				    printf("*");
+				    loginClave[i] = caracter;
+				    i++;
+			    }
+		    }
+        }    
+	
 		
-	// Valida al usuario
-        for (int j = 0; j < NUMERO_USUARIOS; ++j) {
-            if (strcmp(usuario, usuarios[j]) == 0 && strcmp(clave, claves[j]) == 0)
-	    {
-                ingresa = 1;
+	    // Valida al usuario
+        for (j = 0; j < NUMERO_USUARIOS; j++) 
+        {
+            if (strcmp( loginUsuario , usuarios[j] ) == 0 && strcmp( loginClave, claves[j] ) == 0)
+	        {
+                k = 1;
                 break;    
             }
-     } while ( i = 0 );
+        } 
+    } while ( k != 1 );
     
 	do
     {
@@ -123,9 +126,9 @@ int main()
 						do{
 							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
 							scanf("%d", &usarAsistente);
-						} while(usarAsistente < 1 || usarAsistente > 2);//Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
+						} while(usarAsistente < 1 || usarAsistente > 2); //Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
 
-						if(usarAsiste == 1){
+						if(usarAsistente == 1){
 							/*Se despliega el asistente de caja ~Emilio*/
 							printf("\n\tAsistente de Caja\n");
 							printf("-----------------------\n");
@@ -134,7 +137,7 @@ int main()
 							printf("\n¿Cuantos billetes de 500 tiene?: ");
 							scanf("%d", &billQuin);
 							printf("\n¿Cuantos billetes de 200 tiene?: ");
-							scanf("%d", &billDos);
+							scanf("%d", &billDosci);
 							printf("\n¿Cuantos billetes de 100 tiene?: ");
 							scanf("%d", &billCien);
 							printf("\n¿Cuantos billetes de 50 tiene?: ");
@@ -165,14 +168,17 @@ int main()
 					break;
 					
 				case 3:
-					if(apertura == 1){
+					if(apertura == 1)
+                    {
 						//Opcion de corte de caja ~Emilio
-						do{
+						do
+                        {
 							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
 							scanf("%d", &usarAsistente);
 						} while(usarAsistente < 1 || usarAsistente > 2);//Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
 
-						if(usarAsiste == 1){
+						if(usarAsistente == 1)
+                        {
 							/*Se despliega el asistente de caja ~Emilio*/
 							printf("\n\tAsistente de Caja\n");
 							printf("-----------------------\n");
@@ -181,7 +187,7 @@ int main()
 							printf("\n¿Cuantos billetes de 500 tiene?: ");
 							scanf("%d", &billQuin);
 							printf("\n¿Cuantos billetes de 200 tiene?: ");
-							scanf("%d", &billDos);
+							scanf("%d", &billDosci);
 							printf("\n¿Cuantos billetes de 100 tiene?: ");
 							scanf("%d", &billCien);
 							printf("\n¿Cuantos billetes de 50 tiene?: ");
@@ -199,7 +205,8 @@ int main()
 							/*Se calcula el dinero que tiene la caja al momento de hacer la apertura*/
 							posDinero = billMil+billQuin+billDosci+billCien+billCinc+billVen+monDiez+monCinc+monDos+monUno;
 						} 
-						else {
+						else
+                        {
 							printf("\nIngrese la cantidad de dinero que tenga la caja");
 							scanf("%f", &posDinero);
 						}
@@ -219,14 +226,14 @@ int main()
 					}
 					break;
 				}
-				else{
+				default:
 					printf("\nNo se puede realizar un corte, antes debe realizar una apertura de caja");//Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
-				}
 			} while ( opcionMenu2 != 4);
             break;
         
         case 2:
-			do{
+			do
+            {
 				printf("\n    1. Bodega");
 				printf("\n    2. Tienda");
 				printf("\n    3. Salir");
@@ -329,21 +336,19 @@ int main()
             {
             case 1:
                 // Ingresar un nuevo usuario
-                datosUsuario ;
+                /* datosUsuario ;
                 printf("Ingrese la clave del usuario : ");
                 scanf("%d");
                 printf("Ingrese la contraseña para el usuario %d : ", );
-                scanf("");
+                scanf(""); */
 				
                 break;
             
             default:
                 break;
-            }
             break;
+            }
         }
-        
     } while ( opcionMenu1 != 4);
-    
     return 0;
 }
