@@ -67,4 +67,4 @@ ________________________________________________________________________________
 
 [Presentación Avances](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Avances_Programadores%20Insomnes.pptx)
 
-[Cartel Científico](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Sistema%20de%20cobros%20y%20bdd%20Kuerissimo%20PIEL.pdf)
+[Cartel Científico](https://www.canva.com/design/DAFAzz69ZZw/tbETnFy8roJ4bIh3ztmDHg/view?utm_content=DAFAzz69ZZw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
