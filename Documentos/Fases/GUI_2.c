@@ -31,52 +31,7 @@ int main()
 
     int i = 0, k = 0, j = 0;
 
-    printf("\n\t\t\tINICIO DE SESION\n");
-	do
-    {
-        system("cls");
-	    printf("\n\tUSUARIO: ");
-	    gets(loginUsuario);
-	    printf("\tCLAVE: ");
-
-        while (caracter = getch())
-        {
-		    if (caracter == TECLA_ENTER)
-		    {
-			    loginClave[i] = '\0';
-			    break;
-		    } 
-		    else if (caracter == TECLA_BACKSPACE)
-		    {
-			    if (i > 0)
-			    {
-			    	i--;
-				    printf("\b \b");
-			    }
-		    } 
-		    else 
-		    {
-			    if (i < LONGITUD) 
-			    {
-				    printf("*");
-				    loginClave[i] = caracter;
-				    i++;
-			    }
-		    }
-        }    
-	
-		
-	    // Valida al usuario
-        for (j = 0; j < NUMERO_USUARIOS; j++) 
-        {
-            if (strcmp( loginUsuario , usuarios[j] ) == 0 && strcmp( loginClave, claves[j] ) == 0)
-	        {
-                k = 1;
-                break;    
-            }
-        } 
-		// Corregir lo del inicio de sesion (no se que sale mal, pero si lo escribes mal a la primera, ya no puedes iniciar sesion; se reinicia el bucle idk) :)
-    } while ( k != 1 );
+   
     
 	do
     {
