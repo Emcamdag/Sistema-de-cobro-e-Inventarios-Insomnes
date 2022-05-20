@@ -114,13 +114,14 @@ int main()
 				printf("\n    1. Realizar venta");
 				printf("\n    2. Apertura de caja");
 				printf("\n    3. Corte de caja");
-				printf("\n    4. Salir");
+				printf("\n    4. Revisar informacio de ventas anteriores");
+				printf("\n    5. Salir");
 				
 				do
 				{
-					printf("\n Ingrese su eleccion (1-4):    ");//Se le pide al usuario que ingrese una opcion
+					printf("\n Ingrese su eleccion (1-5):    ");//Se le pide al usuario que ingrese una opcion
 					scanf("%d", &opcionMenu2);
-				} while ( opcionMenu2 < 1 || opcionMenu2 > 4);
+				} while ( opcionMenu2 < 1 || opcionMenu2 > 5);
 				
 				switch ( opcionMenu2 )
 				{
@@ -210,7 +211,7 @@ int main()
 							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
 							scanf("%d", &usarAsistente);
 						} while(usarAsistente < 1 || usarAsistente > 2); //Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
-
+						
 						if(usarAsistente == 1){
 							/*Se despliega el asistente de caja ~Emilio*/
 							printf("\n\tAsistente de Caja\n");
@@ -242,7 +243,7 @@ int main()
 							printf("\nIngrese la cantidad de dinero que tenga la caja");
 							scanf("%f", &preDinero);
 						}
-						printf("\nUsted tiene: $%d en la caja\n", preDinero);
+						printf("\nUsted tiene: $%.0f en la caja\n", preDinero);
 						apertura = 1;
 					}
 					else{
@@ -252,16 +253,16 @@ int main()
 					
 				case 3:
 					if(apertura == 1)
-                    {
+					{
 						//Opcion de corte de caja ~Emilio
 						do
-                        {
+						{
 							printf("\n¿Desea usar el asistente de caja?(1=Si, 2=No)");
 							scanf("%d", &usarAsistente);
 						} while(usarAsistente < 1 || usarAsistente > 2);//Se valida que el usuario ingrese dentro de los parametros indicados ~Emilio
-
+						
 						if(usarAsistente == 1)
-                        {
+						{
 							/*Se despliega el asistente de caja ~Emilio*/
 							printf("\n\tAsistente de Caja\n");
 							printf("-----------------------\n");
@@ -289,34 +290,55 @@ int main()
 							posDinero = billMil+billQuin+billDosci+billCien+billCinc+billVen+monDiez+monCinc+monDos+monUno;
 						} 
 						else
-                        {
+						{
 							printf("\nIngrese la cantidad de dinero que tenga la caja");
 							scanf("%f", &posDinero);
 						}
 						system("cls");
 						/*Muestra en pantalla el reporte de corte de caja, indica si hay faltante ~Emilio*/
-						printf("\n\tCORTE DE CAJA");
-						printf("\n Arqueo inicial:\t$%d", preDinero);
+						printf("\n\t\tCORTE DE CAJA");
+						printf("\n Arqueo inicial:\t$%.0f", preDinero);
 						printf("\n Cobranza:\t$%d", ventasTotal);
 						printf("\n Devoluciones:\t$%d", devTotal);
 						printf("-----------------------------------------");
-						printf("\n Total:\t$%d", preDinero+ventasTotal+devTotal);
-						printf("\n\n Arqueo final:\t$%d", posDinero);
+						printf("\n Total:\t$%.0f", preDinero+ventasTotal+devTotal);
+						printf("\n\n Arqueo final:\t$%.0f", posDinero);
 						printf("-----------------------------------------");
-						printf("\n\n Faltante:\t$%d", (preDinero+ventasTotal+devTotal)-(posDinero));
+						printf("\n\n Faltante:\t$%.0f", (preDinero+ventasTotal+devTotal)-(posDinero));
 						system("pause");
 						apertura = 0;
 					}
-                    else
-                    {
-                    //Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
-					printf("\nNo se puede realizar un corte, antes debe realizar una apertura de caja");
-                    }
+					else{
+						printf("\n No se puede realizar un corte, antes debe realizar una apertura de caja");//Se imprime en caso de que no se haya realizado una apertura de caja antes. ~Emilio
+					}
+					break;
+				case 4:
+					fd = fopen(informacionVentas,"r");
+					if(fd == NULL){
+						printf("\nError al tratar de leer el archivo\n");
+						system("pause");
+						break;
+					}
+					/*Salida de lainformacion contenida en Informacion de las ventas anteriores.txt*/
+					printf("\n\tMostrando la información de las ventas anteriores\n");
+					printf("_________________________________________________________________\n");
+					while((c=fgetc(fd))!=EOF){
+						if(c=='\n'){
+							printf("\n");
+						}
+						else{
+							putchar(c);
+						}
+					}
+					printf("_________________________________________________________________");
+					printf("\n");
+					system("pause");
+					system("cls");
+					fclose(fd);
 					break;
 				}
-			} while ( opcionMenu2 != 4);
-            break;
-        
+			}while (opcionMenu2 != 5);
+                   
         case 2:
 			do
             {
