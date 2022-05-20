@@ -126,12 +126,81 @@ int main()
 				{
 					// Menu para realizar una venta ~Emilio
 				case 1:
-					printf("\n Ingrese el codigo y cantidad de los productos\n");
-					do
-					{
-						scanf("%d", &cantProductos);
-					} while (cantProductos != -1);
-					
+					if(apertura==1){
+						ventaMulti=0;
+						fd = fopen (informacionFactura, "wt");
+						fprintf(fd,"\n\t\tFacturacion");
+						fprintf(fd,"\n_________________________________________________________________");
+						fclose(fd);	
+						for(;;){
+							printf("\n Ingrese el codigo que se va a comprar: ");
+							scanf("%d", &codProductos);
+							printf("\n Ingrese la cantidad de los productos: \n");
+							scanf("%d", &cantProductos);
+							printf("\n Ingrese el monto unitario del producto");
+							scanf("%f", &precUni);
+							
+							ventaInd=cantProductos*precUni;
+							ventaMulti=+ventaInd;
+							ventasTotal=+ventaInd;
+								
+							fd = fopen (informacionVentas, "at");
+							
+							if(fd==NULL){
+								printf("\nError al tratar de leer al archivo\n");
+								system("pause");
+								break;
+							}
+								
+							fflush(stdin);
+								
+							/*Proceso de guardar la informacion de la venta realizada ~Emilio*/
+							fprintf(fd,"\n Producto: %d", codProductos);
+							fprintf(fd,"\n Usuario que realizo la venta: ");
+							fwrite(&loginUsuario,1,strlen(loginUsuario),fd);
+							fprintf(fd,"\n Cantidad de Productos: %d", cantProductos);
+							fprintf(fd,"\n Precio unitario del producto: %.0f", precUni);
+							fprintf(fd,"\n Total: \t%.0f", ventaInd);
+							fprintf(fd,"\n");
+							
+							fclose(fd);	
+							
+							fd = fopen (informacionFactura, "at");
+							
+							if(fd==NULL){
+								printf("\nError al tratar de leer al archivo\n");
+								system("pause");
+								break;
+							}
+							
+							fflush(stdin);
+							
+							/*Proceso de hacer la facturacion de la venta realizada ~Emilio*/
+							
+							fprintf(fd,"\n Producto: %d", codProductos);
+							fprintf(fd,"\n Usuario que realizo la venta: ");
+							fwrite(&loginUsuario,1,strlen(loginUsuario),fd);
+							fprintf(fd,"\n Cantidad de Productos: %d", cantProductos);
+							fprintf(fd,"\n Precio unitario del producto: %.0f", precUni);
+							fprintf(fd,"\n Total individual: %.0f", ventaInd);
+							fprintf(fd,"\n");
+							
+							do{
+								printf("\n Va añadir mas productos?(Si=1, No=0)");
+								scanf("%d", &masProductos);
+							} while(masProductos < 1 || masProductos > 2);
+							if(masProductos==0){
+								break;
+							}
+						}
+						fprintf(fd,"\n Total: %.0f", ventaMulti);
+						fclose(fd);
+						printf("Se le cobra la cantidad de: %.0f", ventaMulti);
+						system("\npause");
+					}
+					else{
+						printf("\n Primero se debe hacer una apertura de caja");
+					}
 					break;
 					
 				case 2:
