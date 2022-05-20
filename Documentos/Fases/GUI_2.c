@@ -5,6 +5,8 @@
 
 // Interfaz de usuario tentativa (11/05/22)
 
+FILE *fd;
+
 #define LONGITUD 80
 #define TECLA_ENTER 13
 #define TECLA_BACKSPACE 8
@@ -12,12 +14,20 @@
 
 int main()
 {
+    //Variables para guardar e imprimir la informacion de la ventas y la facturacion
+    char informacionVentas[] = "Informacion de las ventas anteriores.txt", informacionFactura[]="Factura.txt";
+    int c;
+	
+    //Variables para realizar venta
+    int codProductos, masProductos;
+    float ventaMulti, precUni, ventaInd;
+	
     // Variable para elegir de las opciones del menu; V. para la cantidad de productos siendo comprados; V. para usar en el switch de inventario
     int opcionMenu1, opcionMenu2, opcionMenu3, opcionMenu4, cantProductos, inventarioSwitch, usarAsistente, ventasTotal, devTotal;
-	
 
     // Variables para el corte y apertura de caja 
-    int apertura, preDinero, posDinero, billMil, billQuin, billDosci, billCien, billCinc, billVen, monDiez, monCinc, monDos, monUno;
+    int apertura, billMil, billQuin, billDosci, billCien, billCinc, billVen, monDiez, monCinc, monDos, monUno;
+    float preDinero, posDinero;
 
     // Variables para iniciar sesion
     char loginUsuario[ LONGITUD + 1 ], loginClave[ LONGITUD + 1 ], caracter;
