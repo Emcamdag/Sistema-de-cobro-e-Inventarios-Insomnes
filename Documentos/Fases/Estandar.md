@@ -19,8 +19,3 @@ Estándar para el desarrollo de sistemas informáticos del estado de Sonora:
  
 
 Utilizaremos este estándar ya que este estándar cuida la información de la empresa, la cual tratándose de una base de datos requiere estar protegida. Solo se transferirán al servidor archivos requeridos por el negocio. Utilizará un contenedor sin permisos de ejecución. Y aceptará únicamente archivos y recursos de sólo lectura.
-
-
-
-
-
