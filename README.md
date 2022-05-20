@@ -10,7 +10,7 @@ ________________________________________________________________________________
 
 [Graniel Arzat Aaron Isaac](https://github.com/Aaron2105)
 
-[Herrera Herrera Adiel Elioenai]
+[Herrera Herrera Adiel Elioenai](https://github.com/adiel1212)
 
 [Méndez Sierra Daniel](https://github.com/TanoshiiSound)
 
@@ -62,7 +62,7 @@ ________________________________________________________________________________
 [Comprimido código (FINAL)]()
 ______________________________________________________________________________________________________________________________________________________________________
 ## Entregas
-[Informe general]( )
+[Informe general](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Informe%20General-Insomnes.pdf)
 
 En este se realizaron correcciones a los puntos a tratar de las anteriores entregas y se encuentra documentado todo el proceso de desarrollo.
 
@@ -79,6 +79,6 @@ En este se realizaron correcciones a los puntos a tratar de las anteriores entre
 
 ### Tercera Entrega:
 
-[Informe Tercera Entrega]()
+[Informe Tercera Entrega](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Informe%20entrega%20final.pdf)
 
 [Cartel Científico](https://www.canva.com/design/DAFAzz69ZZw/tbETnFy8roJ4bIh3ztmDHg/view?utm_content=DAFAzz69ZZw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
