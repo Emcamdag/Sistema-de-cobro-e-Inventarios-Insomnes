@@ -41,7 +41,7 @@ ________________________________________________________________________________
 
 ## Mapeo de requerimientos
 
-[Interfaz de usuario]
+[Interfaz de usuario](https://github.com/Emcamdag/Sistema-de-cobro-e-Inventarios-Insomnes/blob/main/Documentos/Fases/Interfaces%20de%20usuario.pdf)
 
 [Requerimientos](https://github.com/Emcamdag/Base-de-datos-Kuerissimo-PIEL/blob/main/Documentos/Fases/Requerimientos.pdf)
 
